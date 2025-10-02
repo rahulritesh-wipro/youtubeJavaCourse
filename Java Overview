@@ -41,6 +41,43 @@ To manage the increasing complexity, the second approach (programs written aroun
 3. by switching the controlling entity to data, you can achieve several organizational benefits.
 
 *Abstraction*
+1. Abstraction is very essential in Object Oriented programming
+2. Humans manage complexity through Abstraction.
+3. example- people do not think of a car as a set of tens of thousands of individual parts.
+They think of it as a well defined object with its own unique behavior. This abstraction allows people to use a car to drive 
+to the grocery store without being overwhelmed by the complexity of the individual parts. They can ignore the details of how the engine,
+transmission, and braking systems work.Instead, they are free to utilize the object as whole.
+
+In terms of programming-
+A powerful way to manage Abtraction is through the use of hierarchical classifications. This allows you to layer the semantics of the complex
+systems, breaking them into more manageable pieces. example - from outside car is a single object, once inside, you see that the car consists
+of several subsystems like steering, brakes, sound system, seat belts, heating, cellular phone and so on.
+
+In turn each of these subsystems is made up of more specialized units. For example - / instance the system you interact with your car's 
+dashboard controls may consist of a media system, navigation interface and vehicle monitoring display. The point is that you manage the 
+complexity of a car or (any other complex system) through the use of hierarchical abstractions.
+
+Hierarchical abstractions of complex systems can also be applied to computer programs.
+The data from a traditional process oriented program can transformed by abstraction into its component objects.
+A sequence of process steps can become a collection of messages between these objects. Thus, each of these objects describes its own 
+unique behavior. You can treat these objects as concrete entities that respond to messages telling them t do something. This is the 
+essence of object oriented programming.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
