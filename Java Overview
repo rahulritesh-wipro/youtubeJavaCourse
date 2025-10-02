@@ -64,6 +64,74 @@ unique behavior. You can treat these objects as concrete entities that respond t
 essence of object oriented programming.
 
 
+it is important to understand how OOP principles or concepts translate into programs.
+Once you have well-defined objects and clean,reliable interfacesto those objects, you can gracefully decommission or replace parts
+of an older system without fear. ex- replacing faulty or old parts of a car.
+
+
+
+*The Three OOP Principles*
+All OOP language provides mechanisms that help you implement the object oriented model- they are
+1. Encapsulation
+2. Inheritance
+3. Polymorphism
+
+
+
+*Ecapsulation*
+Encapsulation is the mechanism that binds together code and the data it manipulates, and it keeps both safe from outside interference and 
+misuse.
+
+It is like a protective wrapper that prevents the code and data from being arbitrarily accessed by other code defined outside the wrapper.
+Access to the code and data inside the wrapper is tightly controlled through a well-defined interface.
+
+example - car - gear shift is responsible to increase the car speed, you as a user has only one method of affecting this complex encapsulation
+-speed by moving the gear shift lever. You can't affect the car speed by using indicator lever or windshield wipers. Thus gear-shift lever is a
+well defined (indeed-unique) interface to the transmission. Also what occurs inside the transmission doesn't affect objects outside the 
+transmission. for example shifting gears doesn't turn on the headlights! because transmission is encapsulated, dozens of car manufacturers
+can implement transmission in their own way, however from driver's perspective they all work the same.
+
+This same idea can be applied to programming, the power of encapsulated code is that everyone knows how to access it and thus can use it
+regardless of the implementation details - without fear of unexpected side effects.
+
+The basis of encapsulation is class.
+A class defines the structure and behavior (data and code) that will be shared by a set of objects.
+Each object of a given class contains the structure and behavior defined by the class as if it were stamped out by a mold in the shape of 
+the class for this reason objects are sometimes reffered to as instances of a class.
+
+Thus a class is a logical construct whereas an object has the physical reality. 
+when you create a class, you will specify the code and data that constitute that class. 
+collectively, these elements are called members of the class.
+specifically the data defined by the class are referred to as member variables or instance variables.
+the code that operates on that data is referred to as member methods or just methods.
+
+In properly written java programs, the methods define how the member variables can be used. Tthis means that the behavior and interface
+of a class are defined by the methods that operate on its instance data.
+
+Since the purpose of a class is to encapsulate complexity, there are mechanisms for hiding the complexity of the implementation inside the 
+class. Each method or variable in a class may be marked as private or public.
+
+The public interface of a class represents everything that external users of a class need to know.
+The private methods and data can only be accessed by code that is a member of the class. Therefore any other code that is not a member of a class
+cannot access a private method or variable.
+
+since the private members of a class may only be accessed by other parts of your program through the class's public methods, you can ensure
+security i.e. no improper actions take place. That means public interface should be carefully designed not to expose too much of the inner
+workings of the class.
+
+
+*Inheritance*
+
+
+
+
+
+ 
+
+
+
+
+
 
 
 
