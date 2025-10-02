@@ -121,7 +121,41 @@ workings of the class.
 
 
 *Inheritance*
+Inhertance is the process by which one object acquires the properties of another object.
+This is important because it supports the concept of hierarchical classification.
 
+Top down approach - hierarchical classification.
+without the use of hierarchies, each object would need to define all of its characteristics explicitly.
+However, by use of Inheritance, an object need only define those qualities that make it unique within a class.(class -Mammal, Animal, Dog..)
+An object can inherit its general attributes from its parent.
+
+This it is the Inheritance mechanism that makes it possible for one object to be a specific instance of a more general case.
+
+Example - Most people naturally view the world as made up of objects that are related to each other in a hierarchical way
+Animals
+Mammals
+Dogs
+
+Animal in abstract way
+attributes - size, intelligence and type of skeletal system
+behavioral aspect - eat, breathe, sleep
+
+this description of attributes and behavior is the class definition for Animals.
+
+
+If you want to describe a more specific class of Animals such as Mammals, they would have more specific attributes,such as -
+attributes - type of teeth, mammary glands
+
+Animal - superclass
+Mammal - subclass
+
+Since Mammals (subclass) are simple more precisely Animals (superclass) they inherit all of the attributes from Animals (superclass).
+Note - A deeply inherit subclass inherits all if the attributes from each of its Ancestors in the class hierarchy.
+
+Inheritance interacts with Encapsulation as well. If a given class Encapsulates some attributes, then any subclass will have the same 
+attributes plus its own specific attributes. A new subclass inherits all of its attributes of all of its Ancestors.
+
+*Polymorphism*
 
 
 
