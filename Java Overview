@@ -156,7 +156,9 @@ Inheritance interacts with Encapsulation as well. If a given class Encapsulates 
 attributes plus its own specific attributes. A new subclass inherits all of its attributes of all of its Ancestors.
 
 *Polymorphism*
-
+Polymorphism is a feature that allows one interface to be used for a general class of actions.
+The specific action is determined by the exact nature of the situation.
+Example - 
 
 
 
